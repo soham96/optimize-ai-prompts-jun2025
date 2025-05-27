@@ -1,8 +1,12 @@
-# { WORKSHOP NAME } 
+# ScaleDown: Optimize AI prompts to reduce verbosity and carbon footprint
 ### Presentation: [{ YOUR PRESENTATION NAME }](workshop/presentation_template.pdf)
 
 ## Workshop description
-Describe why your topic is important and what you want to share with your audience
+During this workshop, you will learn how to leverage the ScaleDown Python package to optimize AI prompts, reduce token usage, and minimize your AI applications' carbon footprint. 
+
+We'll explore practical techniques for creating structured templates, implementing model-specific optimizations, and measuring environmental impact. 
+
+You'll gain hands-on experience with the package's key features while understanding how even small efficiency improvements can lead to significant cost savings and environmental benefits when adopted at scale.
 
 ## Requirements
 * PyLadies Amsterdam uses [uv](https://docs.astral.sh/uv/) for dependency management
@@ -35,10 +39,10 @@ To get started, open the `pyproject.toml` file and set the required Python versi
 After you have specified the Python version, you can create a virtual environment with `uv venv` and add packages with `uv add <package>`. Before the workshop, you can generate a requirements.txt file, which is needed e.g. for running code in Google Colab, by running `uv export > requirements.txt`.
 
 ## Video record
-Re-watch [this YouTube stream](link)
+Re-watch [this YouTube stream](https://www.youtube.com/live/7N2OWbREAgU)
 
 ## Credits
-This workshop was set up by @pyladiesams and {your GitHub handler}
+This workshop was set up by @pyladiesams and @varchanaiyer
 
 ## Appendix
 ### Pre-Commit Hooks
